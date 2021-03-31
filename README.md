@@ -1,5 +1,5 @@
 ![Bootstrap icon](https://img.shields.io/badge/-Bootstrap-333333?style=flat&logo=bootstrap) 
-![HTML icon](https://img.shields.io/badge/-html-333333?style=flat&logo=html) 
+![HTML5 icon](https://img.shields.io/badge/-html5-333333?style=flat&logo=html5) 
 ## Портфолио на Bootstrap 5
 ### Портфолио разработчика с проектами и личными данными
 ![Скриншот страницы](https://i.imgur.com/dp3QsBC.png)
