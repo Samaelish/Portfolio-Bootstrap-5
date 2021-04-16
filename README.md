@@ -3,4 +3,4 @@
 ## Портфолио на Bootstrap 5
 ### Портфолио разработчика с проектами и личными данными
 ![Скриншот страницы](https://i.imgur.com/dp3QsBC.png)
-# [Смотреть демо на Netlify](https://stupefied-newton-edf259.netlify.app/)
+# [Смотреть демо](https://portfolio-bootstrap-5.vercel.app/)
