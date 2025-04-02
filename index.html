@@ -1,437 +1,519 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Samaelish Portfolio</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="icon" type="image/x-icon" href="/img/favicon.png"/>
-</head>
-<body class="bg-light">
-<!-- navbar start -->
-  <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
-    <div class="container-lg">
-      <a class="navbar-brand text-primary fw-bold fs-4" href="#home">С. Д.</a>
-      <div class="dropdown">
-          <button class="btn btn-primary px-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+  <head>
+    <title>Samaelish Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png" />
+  </head>
+  <body class="bg-light">
+    <!-- navbar start -->
+    <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+      <div class="container-lg">
+        <a class="navbar-brand text-primary fw-bold fs-4" href="#home">С. Д.</a>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary px-3"
+            type="button"
+            id="dropdownMenuButton1"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
             <i class="fas fa-bars"></i>
           </button>
-        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item" href="#home">Главная</a></li>
-          <li><a class="dropdown-item" href="#about">Обо мне</a></li>
-          <li><a class="dropdown-item" href="#services">Услуги</a></li>
-          <li><a class="dropdown-item" href="#portfolio">Портфолио</a></li>
-          <li><a class="dropdown-item" href="#testimonials">Отзывы</a></li>
-          <li><a class="dropdown-item" href="#contact">Контакты</a></li>
-        </ul>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#home">Главная</a></li>
+            <li><a class="dropdown-item" href="#about">Обо мне</a></li>
+            <li><a class="dropdown-item" href="#services">Услуги</a></li>
+            <li><a class="dropdown-item" href="#portfolio">Портфолио</a></li>
+            <li><a class="dropdown-item" href="#testimonials">Отзывы</a></li>
+            <li><a class="dropdown-item" href="#contact">Контакты</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-<!-- navbar end -->
+    </nav>
+    <!-- navbar end -->
 
-<!-- home section start -->
-<section class="home py-5" id="home">
-  <div class="container-lg">
-    <div class="row min-vh-100 align-items-center align-content-center">
-      <div class="col-md-6 mt-5 mt-md-0">
-        <div class="home-img text-center">
-          <img src="img/profile.jpg" class="rounded-circle mw-100 he" alt="profile img">
-        </div>
-      </div>
-      <div class="col-md-6 mt-5 mt-md-0 order-md-first">
-        <div class="home-text">
-          <p class="text-muted mb-1">Привет, я</p>
-          <h1 class="text-primary text-uppercase fs-1 fw-bold">Веб-разработчик</h1>
-          <h2 class="fs-4">Семён Денисов</h2>
-          <p class="mt-4 text-muted">Люблю создавать интересные интернет-страницы и веб-приложения</p>
-          <a href="#portfolio" class="btn btn-primary px-3 mt-3">Мои проекты</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- home section end -->
-
-<!-- about section start -->
-<section class="about py-5" id="about">
-  <div class="container-lg py-4">
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <div class="section-title text-center">
-          <h2 class="fw-bold mb-5">Обо мне</h2>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="about-text">
-          <h3 class="fs-4 mb-3">Создаю красивые вебсайты и приложения</h3>
-          <p class="text-muted">Воплощаю идеи клиентов в жизнь!</p>
-        </div>
-        <div class="row text-center text-uppercase my-3">
-          <div class="col-sm-4">
-            <div class="fact-item">
-              <h4 class="fs-1 fw-bold">100</h4>
-              <p class="text-muted">Проектов завершено</p>
+    <!-- home section start -->
+    <section class="home py-5" id="home">
+      <div class="container-lg">
+        <div class="row min-vh-100 align-items-center align-content-center">
+          <div class="col-md-6 mt-5 mt-md-0">
+            <div class="home-img text-center">
+              <img src="img/profile.jpg" class="rounded-circle mw-100 he" alt="profile img" />
             </div>
           </div>
-          <div class="col-sm-4">
-            <div class="fact-item">
-              <h4 class="fs-1 fw-bold">90</h4>
-              <p class="text-muted">Довольных клиентов</p>
+          <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+            <div class="home-text">
+              <p class="text-muted mb-1">Привет, я</p>
+              <h1 class="text-primary text-uppercase fs-1 fw-bold">Веб-разработчик</h1>
+              <h2 class="fs-4">Семён Денисов</h2>
+              <p class="mt-4 text-muted">Люблю создавать интересные интернет-страницы и веб-приложения</p>
+              <a href="#portfolio" class="btn btn-primary px-3 mt-3">Мои проекты</a>
             </div>
           </div>
-          <div class="col-sm-4">
-            <div class="fact-item">
-              <h4 class="fs-1 fw-bold">95</h4>
-              <p class="text-muted">Отличных отзывов</p>
+        </div>
+      </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- about section start -->
+    <section class="about py-5" id="about">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Обо мне</h2>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-12 d-flex align-items-center">
-            <a href="https://github.com/Samaelish" class="btn px-3 btn-primary me-5">Смотреть Github</a>
-            <div class="social-links">
-              <a href="https://vk.com/samaelish" class="text-dark me-2"><i class="fab fa-vk"></i></a>
-              <a href="https://github.com/Samaelish" class="text-dark me-2"><i class="fab fa-github"></i></a>
-              <a href="https://codepen.io/Samaelish" class="text-dark me-2"><i class="fab fa-codepen"></i></a>
-              <a href="https://t.me/Samaelish" class="text-dark me-2"><i class="fab fa-telegram-plane"></i></a>
+          <div class="col-md-6">
+            <div class="about-text">
+              <h3 class="fs-4 mb-3">Создаю красивые вебсайты и приложения</h3>
+              <p class="text-muted">Воплощаю идеи клиентов в жизнь!</p>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 mt-5 mt-md-0">
-        <div class="skill-item mb-4">
-          <h3 class="fs-6">Html</h3>
-          <div class="progress" style="height: 5px;">
-            <div class="progress-bar bg-primary" role="progressbar" style="width: 96%;" aria-valuenow="96" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-        </div>
-        <div class="skill-item mb-4">
-          <h3 class="fs-6">CSS</h3>
-          <div class="progress" style="height: 5px;">
-            <div class="progress-bar bg-primary" role="progressbar" style="width: 87%;" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-        </div>
-        <div class="skill-item mb-4">
-          <h3 class="fs-6">JavaScript</h3>
-          <div class="progress" style="height: 5px;">
-            <div class="progress-bar bg-primary" role="progressbar" style="width: 74%;" aria-valuenow="74" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-        </div>
-        <div class="skill-item mb-4">
-          <h3 class="fs-6">React</h3>
-          <div class="progress" style="height: 5px;">
-            <div class="progress-bar bg-primary" role="progressbar" style="width: 73%;" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-        </div>
-        <div class="skill-item mb-4">
-          <h3 class="fs-6">TypeScript</h3>
-          <div class="progress" style="height: 5px;">
-            <div class="progress-bar bg-primary" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- about section end -->
-
-<!-- service section start -->
-<section class="services py-5" id="services">
-  <div class="container-lg py-4">
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <div class="section-title text-center">
-          <h2 class="fw-bold mb-5">Моя деятельность</h2>
-        </div>
-      </div>
-    </div>
-    <div class="row text-center">
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="service-item shadow-sm p-4 rounded bg-white">
-          <div class="icon my-3 text-primary fs-2">
-            <i class="fab fa-figma"></i>
-          </div>
-          <h3 class="fs-5 py-2">Веб-дизайн</h3>
-          <p class="text-muted">Дизайн страницы в графическом редакторе</p>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="service-item shadow-sm p-4 rounded bg-white">
-          <div class="icon my-3 text-primary fs-2">
-            <i class="fab fa-html5"></i>
-            <i class="fab fa-css3-alt"></i>
-            <i class="fab fa-bootstrap"></i>
-          </div>
-          <h3 class="fs-5 py-2">Веб-вёрстка</h3>
-          <p class="text-muted">Создание интернет-сайтов</p>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="service-item shadow-sm p-4 rounded bg-white">
-          <div class="icon my-3 text-primary fs-2">
-            <i class="fab fa-js"></i>
-            <i class="fab fa-react"></i>
-          </div>
-          <h3 class="fs-5 py-2">Веб-разработка</h3>
-          <p class="text-muted">Веб-приложения и интерактивная функциональность сайтов</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- service section end -->
-
-<!-- portfolio section start -->
-<section class="portfolio py-5" id="portfolio">
-  <div class="container-lg py-4">
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <div class="section-title text-center">
-          <h2 class="fw-bold mb-5">Мои проекты</h2>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6 col-lg-4">
-        <div class="portfolio-item">
-          <img src="img/portfolio/1.gif" class="w-100 rounded" alt="portfolio-item">
-          <h3 class="text-capitalize fs-5 my-2">Интернет-магазин</h3>
-          <p class="mb-1 text-muted fs-6">React, Material UI, Commerce JS</p>
-          <p class="mb-4 fs-5"><a href="https://e-commerce-react-commerce-js.vercel.app/" class="text-primary text-decoration-none">Смотреть Демо</a></p>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4">
-        <div class="portfolio-item">
-          <img src="img/portfolio/2.gif" class="w-100 rounded" alt="portfolio-item">
-          <h3 class="text-capitalize fs-5 my-2">Погода онлайн</h3>
-          <p class="mb-1 text-muted fs-6">React, Openweathermap api</p>
-          <p class="mb-4 fs-5"><a href="https://weather-react-seven.vercel.app/" class="text-primary text-decoration-none">Смотреть Демо</a></p>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4">
-        <div class="portfolio-item">
-          <img src="img/portfolio/3.gif" class="w-100 rounded" alt="portfolio-item">
-          <h3 class="text-capitalize fs-5 my-2">Сайт-визитка</h3>
-          <p class="mb-1 text-muted fs-6">HTML, CSS, JS</p>
-          <p class="mb-4 fs-5"><a href="https://serene-goldwasser-0a4035.netlify.app/" class="text-primary text-decoration-none">Смотреть Демо</a></p>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4">
-        <div class="portfolio-item">
-          <img src="img/portfolio/4.gif" class="w-100 rounded" alt="portfolio-item">
-          <h3 class="text-capitalize fs-5 my-2">Приложение-чат</h3>
-          <p class="mb-1 text-muted fs-6">React, Chat Engine, REST(axios). <br>Логин и пароль для входа PublicUser и 123123</p>
-          <p class="mb-4 fs-5"><a href="https://react-chat-lovat.vercel.app/" class="text-primary text-decoration-none">Смотреть Демо</a></p>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4">
-        <div class="portfolio-item">
-          <img src="img/portfolio/5.gif" class="w-100 rounded" alt="portfolio-item">
-          <h3 class="text-capitalize fs-5 my-2">Сайт портфолио</h3>
-          <p class="mb-1 text-muted fs-6">Bootstrap 5, HTML</p>
-          <p class="mb-4 fs-5"><a href="https://portfolio-bootstrap-5.vercel.app/" class="text-primary text-decoration-none">Смотреть Демо</a></p>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4">
-        <div class="portfolio-item">
-          <img src="img/portfolio/6.gif" class="w-100 rounded" alt="portfolio-item">
-          <h3 class="text-capitalize fs-5 my-2">Список задач</h3>
-          <p class="mb-1 text-muted fs-6">React, TypeScript</p>
-          <p class="mb-4 fs-5"><a href="https://react-typescript-todo-plum.vercel.app/" class="text-primary text-decoration-none">Смотреть Демо</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- portfolio section end -->
-
-<!-- freelancer available section start -->
-<section class="freelancer-available py-5 bg-primary">
-  <div class="container-lg py-4">
-    <div class="row justify-content-center">
-      <div class="col-lg-8 text-center">
-        <p class="text-light fs-5">У Вас есть интересные проекты ?</p>
-        <h2 class="fs-1 text-white mb-4">С удовольствием воплощу Ваши проекты в жизнь !</h2>
-        <a href="#contact" class="btn btn-outline-light">Мои контакты</a>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- freelancer available section end -->
-
-<!-- testimonials section start -->
-<section class="testimonials py-5" id="testimonials">
-  <div class="container-lg py-4">
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <div class="section-title text-center">
-          <h2 class="fw-bold mb-5">Отзывы</h2>
-        </div>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-lg-8 col-xl-7">
-        <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-bs-target="#carousel1" data-bs-slide-to="0" class="active bg-primary"></li>
-            <li data-bs-target="#carousel1" data-bs-slide-to="1" class="bg-primary"></li>
-            <li data-bs-target="#carousel1" data-bs-slide-to="2" class="bg-primary"></li>
-          </ol>
-          <div class="carousel-inner p-1">
-            <!-- testi item start -->
-            <div class="testi-item carousel-item active bg-white shadow-sm rounded p-4 mb-5">
-              <div class="testi-author-info d-flex align-items-center">
-                <img src="img/testimonial/1.jpg" class="img-thumbnail rounded-circle" alt="author img">
-                <div class="author ms-4">
-                  <h3 class="fs-6 mb-1">Ричард Хендрикс</h3>
-                  <p class="text-muted m-0">Король Алгоритмов</p>
+            <div class="row text-center text-uppercase my-3">
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-1 fw-bold">100</h4>
+                  <p class="text-muted">Проектов завершено</p>
                 </div>
               </div>
-              <p class="text-muted fs-6 mt-3">Это как забег на милю за четыре минуты. Никто не верил что это возможно, но кто-то один пробежал и все стали бегать так же быстро. Потому что поняли, что это возможно.</p>
-              <div class="rating text-primary">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-            </div>
-            <!-- testi item end -->
-            <!-- testi item start -->
-            <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
-              <div class="testi-author-info d-flex align-items-center">
-                <img src="img/testimonial/2.jpg" class="img-thumbnail rounded-circle" alt="author img">
-                <div class="author ms-4">
-                  <h3 class="fs-6 mb-1">Бертрам Гилфойл</h3>
-                  <p class="text-muted m-0">Дьявол Архитектуры</p>
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-1 fw-bold">90</h4>
+                  <p class="text-muted">Довольных клиентов</p>
                 </div>
               </div>
-              <p class="text-muted mt-3">Ваши границы пустая формальность, считайте меня гражданином мира.</p>
-              <div class="rating text-primary">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-            </div>
-            <!-- testi item end -->
-            <!-- testi item start -->
-            <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
-              <div class="testi-author-info d-flex align-items-center">
-                <img src="img/testimonial/3.jpg" class="img-thumbnail rounded-circle" alt="author img">
-                <div class="author ms-4">
-                  <h3 class="fs-6 mb-1">Динеш Чутгай</h3>
-                  <p class="text-muted m-0">Император Java</p>
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-1 fw-bold">95</h4>
+                  <p class="text-muted">Отличных отзывов</p>
                 </div>
               </div>
-              <p class="text-muted mt-3">Вот он я! Пакистанский Дензел! Да!</p>
-              <div class="rating text-primary">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 d-flex align-items-center">
+                <a href="https://github.com/Samaelish" class="btn px-3 btn-primary me-5">Смотреть Github</a>
+                <div class="social-links">
+                  <a href="https://vk.com/samaelish" class="text-dark me-2"><i class="fab fa-vk"></i></a>
+                  <a href="https://github.com/Samaelish" class="text-dark me-2"><i class="fab fa-github"></i></a>
+                  <a href="https://codepen.io/Samaelish" class="text-dark me-2"><i class="fab fa-codepen"></i></a>
+                  <a href="https://t.me/Samaelish" class="text-dark me-2"><i class="fab fa-telegram-plane"></i></a>
+                </div>
               </div>
             </div>
-          <!-- testi item end -->
           </div>
+          <div class="col-md-6 mt-5 mt-md-0">
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">Html</h3>
+              <div class="progress" style="height: 5px">
+                <div
+                  class="progress-bar bg-primary"
+                  role="progressbar"
+                  style="width: 96%"
+                  aria-valuenow="96"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">CSS</h3>
+              <div class="progress" style="height: 5px">
+                <div
+                  class="progress-bar bg-primary"
+                  role="progressbar"
+                  style="width: 87%"
+                  aria-valuenow="87"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">JavaScript</h3>
+              <div class="progress" style="height: 5px">
+                <div
+                  class="progress-bar bg-primary"
+                  role="progressbar"
+                  style="width: 74%"
+                  aria-valuenow="74"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">React</h3>
+              <div class="progress" style="height: 5px">
+                <div
+                  class="progress-bar bg-primary"
+                  role="progressbar"
+                  style="width: 73%"
+                  aria-valuenow="73"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="skill-item mb-4">
+              <h3 class="fs-6">TypeScript</h3>
+              <div class="progress" style="height: 5px">
+                <div
+                  class="progress-bar bg-primary"
+                  role="progressbar"
+                  style="width: 65%"
+                  aria-valuenow="65"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
           </div>
         </div>
-    </div>
-  </div>
-</section>
-<!-- testimonials section end -->
+      </div>
+    </section>
+    <!-- about section end -->
 
-<!-- contact section start -->
-<section class="contact py-5" id="contact">
-  <div class="container-lg py-4">
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <div class="section-title text-center">
-          <h2 class="fw-bold mb-5">Контакты</h2>
+    <!-- service section start -->
+    <section class="services py-5" id="services">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Моя деятельность</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-primary fs-2">
+                <i class="fab fa-figma"></i>
+              </div>
+              <h3 class="fs-5 py-2">Веб-дизайн</h3>
+              <p class="text-muted">Дизайн страницы в графическом редакторе</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-primary fs-2">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-bootstrap"></i>
+              </div>
+              <h3 class="fs-5 py-2">Веб-вёрстка</h3>
+              <p class="text-muted">Создание интернет-сайтов</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-primary fs-2">
+                <i class="fab fa-js"></i>
+                <i class="fab fa-react"></i>
+              </div>
+              <h3 class="fs-5 py-2">Веб-разработка</h3>
+              <p class="text-muted">Веб-приложения и интерактивная функциональность сайтов</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-5">
-        <div class="contact-item d-flex mb-3">
-          <div class="icon fs-4 text-primary">
-            <i class="fas fa-envelope"></i>
-          </div>
-          <div class="text ms-3">
-            <h3 class="fs-5">Email</h3>
-            <p class="text-muted">semyondenisov@gmail.com</p>
-          </div>
-        </div>
-        <div class="contact-item d-flex mb-3">
-          <div class="icon fs-4 text-primary">
-            <i class="fas fa-phone"></i>
-          </div>
-          <div class="text ms-3">
-            <h3 class="fs-5">Телефон</h3>
-            <p class="text-muted">7-915-363-**-**</p>
-          </div>
-        </div>
-        <div class="contact-item d-flex">
-          <div class="icon fs-4 text-primary">
-            <i class="fas fa-map-marker-alt"></i>
-          </div>
-          <div class="text ms-3">
-            <h3 class="fs-5">Адрес</h3>
-            <p class="text-muted">Москва</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-7">
-        <div class="contact-form">
-          <form>
-            <div class="row">
-              <div class="col-lg-6 mb-4">
-                <input type="text" placeholder="Имя" class="form-control form-control-lg fs-6 border-0 shadow-sm">
-              </div>
-              <div class="col-lg-6 mb-4">
-                <input type="text" placeholder="Электронная почта" class="form-control form-control-lg fs-6 border-0 shadow-sm">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12 mb-4">
-                <input type="text" placeholder="Тема" class="form-control form-control-lg fs-6 border-0 shadow-sm">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12 mb-4">
-                <textarea rows="5" placeholder="Ваше сообщение" class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <button type="submit" class="btn btn-primary px-3">Отправить сообщение</button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- contact section end -->
+    </section>
+    <!-- service section end -->
 
-<!-- footer start -->
-<div class="footer border-top py-4">
-  <div class="container-lg">
-    <div class="row">
-      <div class="col-lg-12">
-        <p class="m-0 text-center text-muted">&copy; 2021 Samaelish</p>
+    <!-- portfolio section start -->
+    <section class="portfolio py-5" id="portfolio">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Мои проекты</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img src="img/portfolio/1.gif" class="w-100 rounded" alt="portfolio-item" />
+              <h3 class="text-capitalize fs-5 my-2">Мед.Студио</h3>
+              <p class="mb-1 text-muted fs-6">Сайт-визитка на HTML CSS JS</p>
+              <p class="mb-4 fs-5">
+                <a href="https://med-studio-test.vercel.app/" class="text-primary text-decoration-none">
+                  Смотреть Демо
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img src="img/portfolio/2.gif" class="w-100 rounded" alt="portfolio-item" />
+              <h3 class="text-capitalize fs-5 my-2">Погода онлайн</h3>
+              <p class="mb-1 text-muted fs-6">React, Openweathermap api</p>
+              <p class="mb-4 fs-5">
+                <a href="https://weather-react-seven.vercel.app/" class="text-primary text-decoration-none">
+                  Смотреть Демо
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img src="img/portfolio/3.gif" class="w-100 rounded" alt="portfolio-item" />
+              <h3 class="text-capitalize fs-5 my-2">Сайт-визитка</h3>
+              <p class="mb-1 text-muted fs-6">HTML, CSS, JS</p>
+              <p class="mb-4 fs-5">
+                <a href="https://store-website.vercel.app/" class="text-primary text-decoration-none">Смотреть Демо</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img src="img/portfolio/4.gif" class="w-100 rounded" alt="portfolio-item" />
+              <h3 class="text-capitalize fs-5 my-2">Приложение-чат</h3>
+              <p class="mb-1 text-muted fs-6">
+                React, Chat Engine, REST(axios).
+                <br />
+                Логин и пароль для входа PublicUser и 123123
+              </p>
+              <p class="mb-4 fs-5">
+                <a href="https://react-chat-lovat.vercel.app/" class="text-primary text-decoration-none">
+                  Смотреть Демо
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img src="img/portfolio/5.gif" class="w-100 rounded" alt="portfolio-item" />
+              <h3 class="text-capitalize fs-5 my-2">Сайт портфолио</h3>
+              <p class="mb-1 text-muted fs-6">Bootstrap 5, HTML</p>
+              <p class="mb-4 fs-5">
+                <a href="https://portfolio-bootstrap-5.vercel.app/" class="text-primary text-decoration-none">
+                  Смотреть Демо
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img src="img/portfolio/6.gif" class="w-100 rounded" alt="portfolio-item" />
+              <h3 class="text-capitalize fs-5 my-2">Список задач</h3>
+              <p class="mb-1 text-muted fs-6">React, TypeScript</p>
+              <p class="mb-4 fs-5">
+                <a href="https://react-typescript-todo-plum.vercel.app/" class="text-primary text-decoration-none">
+                  Смотреть Демо
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section end -->
+
+    <!-- freelancer available section start -->
+    <section class="freelancer-available py-5 bg-primary">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <p class="text-light fs-5">У Вас есть интересные проекты ?</p>
+            <h2 class="fs-1 text-white mb-4">С удовольствием воплощу Ваши проекты в жизнь !</h2>
+            <a href="#contact" class="btn btn-outline-light">Мои контакты</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- freelancer available section end -->
+
+    <!-- testimonials section start -->
+    <section class="testimonials py-5" id="testimonials">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Отзывы</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-xl-7">
+            <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-bs-target="#carousel1" data-bs-slide-to="0" class="active bg-primary"></li>
+                <li data-bs-target="#carousel1" data-bs-slide-to="1" class="bg-primary"></li>
+                <li data-bs-target="#carousel1" data-bs-slide-to="2" class="bg-primary"></li>
+              </ol>
+              <div class="carousel-inner p-1">
+                <!-- testi item start -->
+                <div class="testi-item carousel-item active bg-white shadow-sm rounded p-4 mb-5">
+                  <div class="testi-author-info d-flex align-items-center">
+                    <img src="img/testimonial/1.jpg" class="img-thumbnail rounded-circle" alt="author img" />
+                    <div class="author ms-4">
+                      <h3 class="fs-6 mb-1">Ричард Хендрикс</h3>
+                      <p class="text-muted m-0">Король Алгоритмов</p>
+                    </div>
+                  </div>
+                  <p class="text-muted fs-6 mt-3">
+                    Это как забег на милю за четыре минуты. Никто не верил что это возможно, но кто-то один пробежал и
+                    все стали бегать так же быстро. Потому что поняли, что это возможно.
+                  </p>
+                  <div class="rating text-primary">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <!-- testi item end -->
+                <!-- testi item start -->
+                <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                  <div class="testi-author-info d-flex align-items-center">
+                    <img src="img/testimonial/2.jpg" class="img-thumbnail rounded-circle" alt="author img" />
+                    <div class="author ms-4">
+                      <h3 class="fs-6 mb-1">Бертрам Гилфойл</h3>
+                      <p class="text-muted m-0">Дьявол Архитектуры</p>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">Ваши границы пустая формальность, считайте меня гражданином мира.</p>
+                  <div class="rating text-primary">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <!-- testi item end -->
+                <!-- testi item start -->
+                <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                  <div class="testi-author-info d-flex align-items-center">
+                    <img src="img/testimonial/3.jpg" class="img-thumbnail rounded-circle" alt="author img" />
+                    <div class="author ms-4">
+                      <h3 class="fs-6 mb-1">Динеш Чутгай</h3>
+                      <p class="text-muted m-0">Император Java</p>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">Вот он я! Пакистанский Дензел! Да!</p>
+                  <div class="rating text-primary">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <!-- testi item end -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonials section end -->
+
+    <!-- contact section start -->
+    <section class="contact py-5" id="contact">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Контакты</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-primary">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="text ms-3">
+                <h3 class="fs-5">Email</h3>
+                <p class="text-muted">semyondenisov@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-primary">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="text ms-3">
+                <h3 class="fs-5">Телефон</h3>
+                <p class="text-muted">7-915-363-**-**</p>
+              </div>
+            </div>
+            <div class="contact-item d-flex">
+              <div class="icon fs-4 text-primary">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="text ms-3">
+                <h3 class="fs-5">Адрес</h3>
+                <p class="text-muted">Москва</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="contact-form">
+              <form>
+                <div class="row">
+                  <div class="col-lg-6 mb-4">
+                    <input type="text" placeholder="Имя" class="form-control form-control-lg fs-6 border-0 shadow-sm" />
+                  </div>
+                  <div class="col-lg-6 mb-4">
+                    <input
+                      type="text"
+                      placeholder="Электронная почта"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                    />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 mb-4">
+                    <input
+                      type="text"
+                      placeholder="Тема"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                    />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 mb-4">
+                    <textarea
+                      rows="5"
+                      placeholder="Ваше сообщение"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <button type="submit" class="btn btn-primary px-3">Отправить сообщение</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section end -->
+
+    <!-- footer start -->
+    <div class="footer border-top py-4">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="m-0 text-center text-muted">&copy; 2021 Samaelish</p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-<!-- footer end -->
+    <!-- footer end -->
 
-  <script src="js/bootstrap.bundle.min.js"></script>
-</body>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
